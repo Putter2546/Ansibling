@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: Install vim-gtk package
+      apt:
+        name: vim-gtk
+
